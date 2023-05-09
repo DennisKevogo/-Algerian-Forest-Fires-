@@ -56,6 +56,12 @@ __The Dependent feature is :__
 
 __To get better understanding of EDA and Model Deployement . Kindly Vist these Two folder : Models, Notebook(For EDA and Training Models), and in the open the __application.py__ file for model deployemnt__
 
+The User interface of deployment app is : <br>
+
+![image](GUI_image.png)<br>
+<br>
+You can see my __application.py__ . All  the work is explained in detail.
+
 
 ### AUTHOR
 <hr>
