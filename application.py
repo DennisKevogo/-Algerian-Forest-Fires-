@@ -31,8 +31,10 @@ def predict_datapoint():
 
         new_data_scaled=standard_scaler.transform([[Temperature,RH,Ws,Rain,FFMC,DMC,ISI,Classes,Region]])
         result=ridge_model.predict(new_data_scaled)
+        result=result[0]
 
-        return render_template('home.html',result=result[0])
+        return render_template('home.html', prediction_text='The FMI prediction is :  {}'.format(result))
+        print(prediction_text)
 
     else:
         return render_template('home.html')
